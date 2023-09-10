@@ -10,27 +10,33 @@
   <body>
     <div id="container">
       <img
+        id="slackDisplayImage"
         data-testid="slackDisplayImage"
         src="slack_profile_image.webp"
         alt="Bayo Obafemi"
       />
       <div id="profileDetails">
-        <h1 data-testid="slackUserName">Bayo Obafemi</h1>
+        <h1 id="slackUserName" data-testid="slackUserName">Bayo Obafemi</h1>
 
         <p class="descriptionText">
           Current Day of the Week:
-          <span data-testid="currentDayOfTheWeek"></span>
+          <span
+            id="currentDayOfTheWeek"
+            data-testid="currentDayOfTheWeek"
+          ></span>
         </p>
         <p class="descriptionText">
-          Current <i>UTC</i> Time: <span data-testid="currentUTCTime"></span>
+          Current <i>UTC</i> Time:
+          <span id="currentUTCTime" data-testid="currentUTCTime"></span>
         </p>
         <p class="descriptionText">
-          Track: <span data-testid="myTrack">Frontend</span>
+          Track: <span id="myTrack" data-testid="myTrack">Frontend</span>
         </p>
         <p class="descriptionText">
           Source Code 👨🏿‍💻:
           <a
             href="https://github.com/bayooba/HNGx_Internship/tree/master/stage_one"
+            id="githubURL"
             data-testid="githubURL"
             >GitHub</a
           >
