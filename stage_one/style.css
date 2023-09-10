@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #ccccccb3, #cccccce6),
+    url(./slack_profile_image.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#container {
+  display: flex;
+  gap: 3.6rem;
+  width: 120rem;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 5rem;
+}
+
+#slackDisplayImage {
+  max-width: 50%;
+  box-shadow: -1rem 0rem 5rem 0rem #555;
+  border-radius: 0.5rem;
+}
+
+#profileDetails {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3.6rem;
+  padding-right: 0;
+}
+
+#slackUserName {
+  font-size: 8rem;
+}
+
+#currentDayOfTheWeek,
+#currentUTCTime,
+#myTrack,
+#githubURL {
+  font-size: 3.6rem;
+}
+
+.descriptionText {
+  font-size: 2.4rem;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  font-size: 3.6rem;
+  cursor: pointer;
+  color: #000;
+}
+
+a:active,
+a:hover {
+  color: #00b;
+}
